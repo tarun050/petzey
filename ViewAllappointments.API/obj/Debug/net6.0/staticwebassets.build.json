@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BzhwXQMNnyaHxCGVM2GmpdrhcVbpoEpF2A8K6v5WNzM=",
+  "Source": "ViewAllappointments.API",
+  "BasePath": "_content/ViewAllappointments.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
