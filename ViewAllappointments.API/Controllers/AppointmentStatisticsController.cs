@@ -23,10 +23,7 @@ namespace ViewAllappointments.API.Controllers
 
             try
             {
-                if (DoctorId == null)
-                {
-                    return NotFound();
-                }
+                
                 AppointmentStatisticsDTO appointmentStatistics = services.GetAppointmentStatistics(DoctorId);
                 return Ok(appointmentStatistics);
             }
