@@ -50,10 +50,7 @@ namespace ViewAllappointments.API.Controllers
 
             try
             {
-                if(id == null)
-                {
-                    return NotFound();
-                }
+             
                 ICollection<AllAppointmentsFormDTO> allAppointments = services.GetAllAppointmentsById(id);
                 return Ok(allAppointments);
             }
